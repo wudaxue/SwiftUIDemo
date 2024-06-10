@@ -10,6 +10,8 @@ import SwiftUI
 struct PopupView: View {
     @State private var showPopup = false // Controls if the popup shows or not
     
+    @GestureState private var popupOffset = CGSize.zero // Track the distance dragged
+    
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
@@ -25,6 +27,7 @@ struct PopupView: View {
             .font(.title)
             // Blur the background when popup is showing
             .blur(radius: showPopup ? 2 : 0)
+            .animation(.easeOut, value: showPopup)
             
             if showPopup {
                 //The popup
@@ -54,9 +57,22 @@ struct PopupView: View {
                     .cornerRadius(20)
                     .shadow(radius: 20)
                     .padding(.horizontal, 25)
+                    .offset(popupOffset)
+                    .gesture(
+                        DragGesture(minimumDistance: 100) // They have to drag it over 100 points
+                            .updating($popupOffset, body: { (value, popupOffset,transaction) in
+                                // Assign distance traveled (translation) to popupOffset (Gesture State variable that is bound: $popupOffset)
+                                popupOffset = value.translation
+                            })
+                            .onEnded({ value in
+                                // If they dragged the popup over 100 points then just close the popup
+                                showPopup = false
+                            }))
                 }
+                .animation(.default, value: showPopup) // Animate the popup
             }
         }
+        .animation(.easeIn, value: showPopup) // This animation will be used to hide/show the popup
     }
 }
 
