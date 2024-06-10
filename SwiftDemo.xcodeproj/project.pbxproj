@@ -20,6 +20,7 @@
 		821ABBC52C16AA11009C38B2 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821ABBC42C16AA11009C38B2 /* StepperView.swift */; };
 		821CC1182C1734BB005618F8 /* TriggerView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1172C1734BB005618F8 /* TriggerView1.swift */; };
 		821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1192C1736A5005618F8 /* DragGestureView.swift */; };
+		821CC11C2C1744D9005618F8 /* GestureRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC11B2C1744D9005618F8 /* GestureRotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		821ABBC42C16AA11009C38B2 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		821CC1172C1734BB005618F8 /* TriggerView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerView1.swift; sourceTree = "<group>"; };
 		821CC1192C1736A5005618F8 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		821CC11B2C1744D9005618F8 /* GestureRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				821ABBBE2C15F61C009C38B2 /* TriggerView.swift */,
 				821CC1172C1734BB005618F8 /* TriggerView1.swift */,
 				821CC1192C1736A5005618F8 /* DragGestureView.swift */,
+				821CC11B2C1744D9005618F8 /* GestureRotationView.swift */,
 				821ABBBC2C15F5F5009C38B2 /* BannerText.swift */,
 				821ABBC02C169440009C38B2 /* PickerView.swift */,
 				821ABBC22C16A97C009C38B2 /* SliderView.swift */,
@@ -174,6 +177,7 @@
 				821ABBBD2C15F5F5009C38B2 /* BannerText.swift in Sources */,
 				821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */,
 				821ABBC12C169440009C38B2 /* PickerView.swift in Sources */,
+				821CC11C2C1744D9005618F8 /* GestureRotationView.swift in Sources */,
 				821ABBAB2C158A0A009C38B2 /* SwiftDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
