@@ -22,6 +22,7 @@
 		821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1192C1736A5005618F8 /* DragGestureView.swift */; };
 		821CC11C2C1744D9005618F8 /* GestureRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC11B2C1744D9005618F8 /* GestureRotationView.swift */; };
 		821CC1202C1749E8005618F8 /* TriggerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC11F2C1749E8005618F8 /* TriggerScrollView.swift */; };
+		821CC1222C174A6E005618F8 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1212C174A6E005618F8 /* PopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		821CC1192C1736A5005618F8 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		821CC11B2C1744D9005618F8 /* GestureRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRotationView.swift; sourceTree = "<group>"; };
 		821CC11F2C1749E8005618F8 /* TriggerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerScrollView.swift; sourceTree = "<group>"; };
+		821CC1212C174A6E005618F8 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				821CC1192C1736A5005618F8 /* DragGestureView.swift */,
 				821CC11B2C1744D9005618F8 /* GestureRotationView.swift */,
 				821CC11F2C1749E8005618F8 /* TriggerScrollView.swift */,
+				821CC1212C174A6E005618F8 /* PopupView.swift */,
 				821ABBBC2C15F5F5009C38B2 /* BannerText.swift */,
 				821ABBC02C169440009C38B2 /* PickerView.swift */,
 				821ABBC22C16A97C009C38B2 /* SliderView.swift */,
@@ -177,6 +180,7 @@
 				821ABBB92C15F2C4009C38B2 /* TitleText.swift in Sources */,
 				821ABBC52C16AA11009C38B2 /* StepperView.swift in Sources */,
 				821CC1182C1734BB005618F8 /* TriggerView1.swift in Sources */,
+				821CC1222C174A6E005618F8 /* PopupView.swift in Sources */,
 				821ABBBB2C15F5CB009C38B2 /* SubtitleText.swift in Sources */,
 				821ABBBD2C15F5F5009C38B2 /* BannerText.swift in Sources */,
 				821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */,
