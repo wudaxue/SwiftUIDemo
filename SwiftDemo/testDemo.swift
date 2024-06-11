@@ -12,6 +12,10 @@ struct testDemo: View {
     @State private var color1 = Color.green
     @State private var change2 = false
     @State private var color2 = Color.green
+    
+    @State private var change = false
+    @State private var animateOnChange = false
+    
     var body: some View {
         VStack(spacing: 20) {
             Circle()
@@ -34,8 +38,22 @@ struct testDemo: View {
                     color2 = .red
                 }
             }
-            .font(.title)
-            .buttonStyle(.borderedProminent)
+            
+            Button("Change") {
+                change.toggle()
+                if change {
+                    // Only apply animation when Change is true
+                    // (Every other time)
+                    animateOnChange.toggle()
+                }
+            }
+            Circle()
+                .fill(Color.blue)
+                .frame(width: 100, height: 100)
+                .offset(x: change ? 150 : -150)
+                .animation(.easeIn(duration: 2), value: animateOnChange)
+                .font(.title)
+                .buttonStyle(.borderedProminent)
         }
     }
 }

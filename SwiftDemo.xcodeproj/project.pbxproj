@@ -30,6 +30,7 @@
 		821CC12E2C184E6E005618F8 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC12D2C184E6E005618F8 /* LockView.swift */; };
 		821CC1302C185085005618F8 /* testDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC12F2C185085005618F8 /* testDemo.swift */; };
 		821CC1322C1850ED005618F8 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1312C1850ED005618F8 /* SequenceView.swift */; };
+		821CC1342C1859E8005618F8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1332C1859E8005618F8 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		821CC12D2C184E6E005618F8 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		821CC12F2C185085005618F8 /* testDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDemo.swift; sourceTree = "<group>"; };
 		821CC1312C1850ED005618F8 /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
+		821CC1332C1859E8005618F8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				821CC12B2C18216B005618F8 /* WithAnimationView.swift */,
 				821CC12D2C184E6E005618F8 /* LockView.swift */,
 				821CC12F2C185085005618F8 /* testDemo.swift */,
+				821CC1332C1859E8005618F8 /* LoginView.swift */,
 				821CC1312C1850ED005618F8 /* SequenceView.swift */,
 				821ABBBE2C15F61C009C38B2 /* TriggerView.swift */,
 				821CC1172C1734BB005618F8 /* TriggerView1.swift */,
@@ -202,6 +205,7 @@
 				821ABBBF2C15F61C009C38B2 /* TriggerView.swift in Sources */,
 				821ABBB92C15F2C4009C38B2 /* TitleText.swift in Sources */,
 				821ABBC52C16AA11009C38B2 /* StepperView.swift in Sources */,
+				821CC1342C1859E8005618F8 /* LoginView.swift in Sources */,
 				821CC1182C1734BB005618F8 /* TriggerView1.swift in Sources */,
 				821CC1262C17F455005618F8 /* DurationView.swift in Sources */,
 				821CC12A2C17F965005618F8 /* RepeatCountView.swift in Sources */,
