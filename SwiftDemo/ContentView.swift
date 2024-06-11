@@ -16,6 +16,15 @@ struct ContentView: View {
             SubtitleText("SubtitleText")
             BannerText(_text: "Banner text.", backColor: .blue, textColor: .white)
             
+            Image(systemName: "heart.fill")
+                .foregroundStyle(Color.yellow)
+                .font(.system(size: 150))
+            // First set of animated changes
+                .scaleEffect(change ? 2 : 1)
+                .animation(Animation.easeInOut(duration: 1), value: change)
+            // Second set of animated changes
+                .scaleEffect(change ? 0.75 : 1)
+                .animation(Animation.easeIn.delay(1), value: change)
             VStack(spacing: 1) {
                 HStack(alignment: .bottom, spacing: 1) {
                     Rectangle()

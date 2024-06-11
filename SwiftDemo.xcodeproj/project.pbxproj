@@ -25,6 +25,7 @@
 		821CC1222C174A6E005618F8 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1212C174A6E005618F8 /* PopupView.swift */; };
 		821CC1262C17F455005618F8 /* DurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1252C17F455005618F8 /* DurationView.swift */; };
 		821CC1282C17F76D005618F8 /* LongDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1272C17F76D005618F8 /* LongDurationView.swift */; };
+		821CC12A2C17F965005618F8 /* RepeatCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1292C17F965005618F8 /* RepeatCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		821CC1212C174A6E005618F8 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		821CC1252C17F455005618F8 /* DurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationView.swift; sourceTree = "<group>"; };
 		821CC1272C17F76D005618F8 /* LongDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongDurationView.swift; sourceTree = "<group>"; };
+		821CC1292C17F965005618F8 /* RepeatCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				821CC1192C1736A5005618F8 /* DragGestureView.swift */,
 				821CC1252C17F455005618F8 /* DurationView.swift */,
 				821CC1272C17F76D005618F8 /* LongDurationView.swift */,
+				821CC1292C17F965005618F8 /* RepeatCountView.swift */,
 				821CC11B2C1744D9005618F8 /* GestureRotationView.swift */,
 				821CC11F2C1749E8005618F8 /* TriggerScrollView.swift */,
 				821CC1212C174A6E005618F8 /* PopupView.swift */,
@@ -188,6 +191,7 @@
 				821ABBC52C16AA11009C38B2 /* StepperView.swift in Sources */,
 				821CC1182C1734BB005618F8 /* TriggerView1.swift in Sources */,
 				821CC1262C17F455005618F8 /* DurationView.swift in Sources */,
+				821CC12A2C17F965005618F8 /* RepeatCountView.swift in Sources */,
 				821CC1222C174A6E005618F8 /* PopupView.swift in Sources */,
 				821ABBBB2C15F5CB009C38B2 /* SubtitleText.swift in Sources */,
 				821ABBBD2C15F5F5009C38B2 /* BannerText.swift in Sources */,
