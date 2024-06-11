@@ -27,6 +27,7 @@
 		821CC1282C17F76D005618F8 /* LongDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1272C17F76D005618F8 /* LongDurationView.swift */; };
 		821CC12A2C17F965005618F8 /* RepeatCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1292C17F965005618F8 /* RepeatCountView.swift */; };
 		821CC12C2C18216B005618F8 /* WithAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC12B2C18216B005618F8 /* WithAnimationView.swift */; };
+		821CC12E2C184E6E005618F8 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC12D2C184E6E005618F8 /* LockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		821CC1272C17F76D005618F8 /* LongDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongDurationView.swift; sourceTree = "<group>"; };
 		821CC1292C17F965005618F8 /* RepeatCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatCountView.swift; sourceTree = "<group>"; };
 		821CC12B2C18216B005618F8 /* WithAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimationView.swift; sourceTree = "<group>"; };
+		821CC12D2C184E6E005618F8 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				821ABBAA2C158A0A009C38B2 /* SwiftDemoApp.swift */,
 				821ABBAC2C158A0A009C38B2 /* ContentView.swift */,
 				821CC12B2C18216B005618F8 /* WithAnimationView.swift */,
+				821CC12D2C184E6E005618F8 /* LockView.swift */,
 				821ABBBE2C15F61C009C38B2 /* TriggerView.swift */,
 				821CC1172C1734BB005618F8 /* TriggerView1.swift */,
 				821CC1192C1736A5005618F8 /* DragGestureView.swift */,
@@ -199,6 +202,7 @@
 				821CC1222C174A6E005618F8 /* PopupView.swift in Sources */,
 				821ABBBB2C15F5CB009C38B2 /* SubtitleText.swift in Sources */,
 				821ABBBD2C15F5F5009C38B2 /* BannerText.swift in Sources */,
+				821CC12E2C184E6E005618F8 /* LockView.swift in Sources */,
 				821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */,
 				821ABBC12C169440009C38B2 /* PickerView.swift in Sources */,
 				821CC11C2C1744D9005618F8 /* GestureRotationView.swift in Sources */,
