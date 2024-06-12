@@ -47,6 +47,7 @@
 		821CC15A2C18AB50005618F8 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1592C18AB50005618F8 /* Slide.swift */; };
 		821CC1622C194477005618F8 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1612C194477005618F8 /* Dialog.swift */; };
 		821CC1642C194491005618F8 /* IfElseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1632C194491005618F8 /* IfElseView.swift */; };
+		821CC1662C19E02C005618F8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1652C19E02C005618F8 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		821CC1592C18AB50005618F8 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		821CC1612C194477005618F8 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 		821CC1632C194491005618F8 /* IfElseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseView.swift; sourceTree = "<group>"; };
+		821CC1652C19E02C005618F8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				821CC12B2C18216B005618F8 /* WithAnimationView.swift */,
 				821CC12D2C184E6E005618F8 /* LockView.swift */,
 				821CC12F2C185085005618F8 /* testDemo.swift */,
+				821CC1652C19E02C005618F8 /* AlertView.swift */,
 				821CC1352C185FB1005618F8 /* SpringAnimationView.swift */,
 				821CC1372C188E9C005618F8 /* BlendSpringView.swift */,
 				821CC1332C1859E8005618F8 /* LoginView.swift */,
@@ -285,6 +288,7 @@
 				821CC12C2C18216B005618F8 /* WithAnimationView.swift in Sources */,
 				821ABBC32C16A97C009C38B2 /* SliderView.swift in Sources */,
 				821CC1382C188E9C005618F8 /* BlendSpringView.swift in Sources */,
+				821CC1662C19E02C005618F8 /* AlertView.swift in Sources */,
 				821CC1282C17F76D005618F8 /* LongDurationView.swift in Sources */,
 				821CC1202C1749E8005618F8 /* TriggerScrollView.swift in Sources */,
 				821ABBBF2C15F61C009C38B2 /* TriggerView.swift in Sources */,
