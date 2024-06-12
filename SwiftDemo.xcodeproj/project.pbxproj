@@ -31,6 +31,22 @@
 		821CC1302C185085005618F8 /* testDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC12F2C185085005618F8 /* testDemo.swift */; };
 		821CC1322C1850ED005618F8 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1312C1850ED005618F8 /* SequenceView.swift */; };
 		821CC1342C1859E8005618F8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1332C1859E8005618F8 /* LoginView.swift */; };
+		821CC1362C185FB1005618F8 /* SpringAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1352C185FB1005618F8 /* SpringAnimationView.swift */; };
+		821CC1382C188E9C005618F8 /* BlendSpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1372C188E9C005618F8 /* BlendSpringView.swift */; };
+		821CC13D2C188FBB005618F8 /* InteractiveSpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC13C2C188FBB005618F8 /* InteractiveSpringView.swift */; };
+		821CC1422C1890A4005618F8 /* IPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1412C1890A4005618F8 /* IPopupView.swift */; };
+		821CC1452C18954D005618F8 /* StiffnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1442C18954D005618F8 /* StiffnessView.swift */; };
+		821CC1472C189653005618F8 /* DampingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1462C189653005618F8 /* DampingView.swift */; };
+		821CC1492C189733005618F8 /* MassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1482C189733005618F8 /* MassView.swift */; };
+		821CC14B2C189845005618F8 /* InitialVelocityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC14A2C189845005618F8 /* InitialVelocityView.swift */; };
+		821CC14D2C18993D005618F8 /* NegativeInitialVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC14C2C18993D005618F8 /* NegativeInitialVelocity.swift */; };
+		821CC14F2C18A74F005618F8 /* Overlapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC14E2C18A74F005618F8 /* Overlapping.swift */; };
+		821CC1512C18A7B7005618F8 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1502C18A7B7005618F8 /* Delay.swift */; };
+		821CC1532C18A953005618F8 /* layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1522C18A953005618F8 /* layout.swift */; };
+		821CC1562C18A9DE005618F8 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1552C18A9DE005618F8 /* DemoView.swift */; };
+		821CC15A2C18AB50005618F8 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1592C18AB50005618F8 /* Slide.swift */; };
+		821CC1622C194477005618F8 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1612C194477005618F8 /* Dialog.swift */; };
+		821CC1642C194491005618F8 /* IfElseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1632C194491005618F8 /* IfElseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +75,22 @@
 		821CC12F2C185085005618F8 /* testDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDemo.swift; sourceTree = "<group>"; };
 		821CC1312C1850ED005618F8 /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 		821CC1332C1859E8005618F8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		821CC1352C185FB1005618F8 /* SpringAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationView.swift; sourceTree = "<group>"; };
+		821CC1372C188E9C005618F8 /* BlendSpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendSpringView.swift; sourceTree = "<group>"; };
+		821CC13C2C188FBB005618F8 /* InteractiveSpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveSpringView.swift; sourceTree = "<group>"; };
+		821CC1412C1890A4005618F8 /* IPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPopupView.swift; sourceTree = "<group>"; };
+		821CC1442C18954D005618F8 /* StiffnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffnessView.swift; sourceTree = "<group>"; };
+		821CC1462C189653005618F8 /* DampingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DampingView.swift; sourceTree = "<group>"; };
+		821CC1482C189733005618F8 /* MassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassView.swift; sourceTree = "<group>"; };
+		821CC14A2C189845005618F8 /* InitialVelocityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVelocityView.swift; sourceTree = "<group>"; };
+		821CC14C2C18993D005618F8 /* NegativeInitialVelocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeInitialVelocity.swift; sourceTree = "<group>"; };
+		821CC14E2C18A74F005618F8 /* Overlapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlapping.swift; sourceTree = "<group>"; };
+		821CC1502C18A7B7005618F8 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		821CC1522C18A953005618F8 /* layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout.swift; sourceTree = "<group>"; };
+		821CC1552C18A9DE005618F8 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		821CC1592C18AB50005618F8 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		821CC1612C194477005618F8 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		821CC1632C194491005618F8 /* IfElseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +107,8 @@
 		821ABB9E2C158A0A009C38B2 = {
 			isa = PBXGroup;
 			children = (
+				821CC1542C18A9C9005618F8 /* Transition */,
+				821CC13B2C188F9E005618F8 /* Spring */,
 				821ABBA92C158A0A009C38B2 /* SwiftDemo */,
 				821ABBA82C158A0A009C38B2 /* Products */,
 			);
@@ -96,6 +130,8 @@
 				821CC12B2C18216B005618F8 /* WithAnimationView.swift */,
 				821CC12D2C184E6E005618F8 /* LockView.swift */,
 				821CC12F2C185085005618F8 /* testDemo.swift */,
+				821CC1352C185FB1005618F8 /* SpringAnimationView.swift */,
+				821CC1372C188E9C005618F8 /* BlendSpringView.swift */,
 				821CC1332C1859E8005618F8 /* LoginView.swift */,
 				821CC1312C1850ED005618F8 /* SequenceView.swift */,
 				821ABBBE2C15F61C009C38B2 /* TriggerView.swift */,
@@ -125,6 +161,50 @@
 				821ABBB12C158A0D009C38B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		821CC13B2C188F9E005618F8 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				821CC1432C189534005618F8 /* Interpolating */,
+				821CC13E2C189059005618F8 /* Interactive */,
+				821CC13C2C188FBB005618F8 /* InteractiveSpringView.swift */,
+				821CC1502C18A7B7005618F8 /* Delay.swift */,
+				821CC1522C18A953005618F8 /* layout.swift */,
+			);
+			name = Spring;
+			sourceTree = "<group>";
+		};
+		821CC13E2C189059005618F8 /* Interactive */ = {
+			isa = PBXGroup;
+			children = (
+				821CC1412C1890A4005618F8 /* IPopupView.swift */,
+			);
+			name = Interactive;
+			sourceTree = "<group>";
+		};
+		821CC1432C189534005618F8 /* Interpolating */ = {
+			isa = PBXGroup;
+			children = (
+				821CC1442C18954D005618F8 /* StiffnessView.swift */,
+				821CC1462C189653005618F8 /* DampingView.swift */,
+				821CC1482C189733005618F8 /* MassView.swift */,
+				821CC14A2C189845005618F8 /* InitialVelocityView.swift */,
+				821CC14C2C18993D005618F8 /* NegativeInitialVelocity.swift */,
+				821CC14E2C18A74F005618F8 /* Overlapping.swift */,
+			);
+			name = Interpolating;
+			sourceTree = "<group>";
+		};
+		821CC1542C18A9C9005618F8 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				821CC1552C18A9DE005618F8 /* DemoView.swift */,
+				821CC1592C18AB50005618F8 /* Slide.swift */,
+				821CC1612C194477005618F8 /* Dialog.swift */,
+				821CC1632C194491005618F8 /* IfElseView.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,28 +277,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821CC1512C18A7B7005618F8 /* Delay.swift in Sources */,
+				821CC13D2C188FBB005618F8 /* InteractiveSpringView.swift in Sources */,
 				821ABBAD2C158A0A009C38B2 /* ContentView.swift in Sources */,
+				821CC1492C189733005618F8 /* MassView.swift in Sources */,
+				821CC1642C194491005618F8 /* IfElseView.swift in Sources */,
 				821CC12C2C18216B005618F8 /* WithAnimationView.swift in Sources */,
 				821ABBC32C16A97C009C38B2 /* SliderView.swift in Sources */,
+				821CC1382C188E9C005618F8 /* BlendSpringView.swift in Sources */,
 				821CC1282C17F76D005618F8 /* LongDurationView.swift in Sources */,
 				821CC1202C1749E8005618F8 /* TriggerScrollView.swift in Sources */,
 				821ABBBF2C15F61C009C38B2 /* TriggerView.swift in Sources */,
+				821CC1362C185FB1005618F8 /* SpringAnimationView.swift in Sources */,
 				821ABBB92C15F2C4009C38B2 /* TitleText.swift in Sources */,
 				821ABBC52C16AA11009C38B2 /* StepperView.swift in Sources */,
+				821CC1562C18A9DE005618F8 /* DemoView.swift in Sources */,
 				821CC1342C1859E8005618F8 /* LoginView.swift in Sources */,
+				821CC15A2C18AB50005618F8 /* Slide.swift in Sources */,
 				821CC1182C1734BB005618F8 /* TriggerView1.swift in Sources */,
 				821CC1262C17F455005618F8 /* DurationView.swift in Sources */,
 				821CC12A2C17F965005618F8 /* RepeatCountView.swift in Sources */,
+				821CC1622C194477005618F8 /* Dialog.swift in Sources */,
 				821CC1222C174A6E005618F8 /* PopupView.swift in Sources */,
 				821ABBBB2C15F5CB009C38B2 /* SubtitleText.swift in Sources */,
+				821CC1422C1890A4005618F8 /* IPopupView.swift in Sources */,
+				821CC14F2C18A74F005618F8 /* Overlapping.swift in Sources */,
 				821ABBBD2C15F5F5009C38B2 /* BannerText.swift in Sources */,
 				821CC1322C1850ED005618F8 /* SequenceView.swift in Sources */,
 				821CC1302C185085005618F8 /* testDemo.swift in Sources */,
 				821CC12E2C184E6E005618F8 /* LockView.swift in Sources */,
 				821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */,
+				821CC1472C189653005618F8 /* DampingView.swift in Sources */,
 				821ABBC12C169440009C38B2 /* PickerView.swift in Sources */,
 				821CC11C2C1744D9005618F8 /* GestureRotationView.swift in Sources */,
+				821CC14D2C18993D005618F8 /* NegativeInitialVelocity.swift in Sources */,
 				821ABBAB2C158A0A009C38B2 /* SwiftDemoApp.swift in Sources */,
+				821CC14B2C189845005618F8 /* InitialVelocityView.swift in Sources */,
+				821CC1452C18954D005618F8 /* StiffnessView.swift in Sources */,
+				821CC1532C18A953005618F8 /* layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
