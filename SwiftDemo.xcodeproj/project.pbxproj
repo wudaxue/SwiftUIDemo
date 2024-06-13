@@ -48,6 +48,9 @@
 		821CC1622C194477005618F8 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1612C194477005618F8 /* Dialog.swift */; };
 		821CC1642C194491005618F8 /* IfElseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1632C194491005618F8 /* IfElseView.swift */; };
 		821CC1662C19E02C005618F8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1652C19E02C005618F8 /* AlertView.swift */; };
+		821CC16A2C19F3CE005618F8 /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC1692C19F3CE005618F8 /* GroupBoxView.swift */; };
+		821CC16C2C1A9E30005618F8 /* ContentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC16B2C1A9E30005618F8 /* ContentTransition.swift */; };
+		821CC16E2C1AA1D0005618F8 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CC16D2C1AA1D0005618F8 /* Demo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +96,9 @@
 		821CC1612C194477005618F8 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 		821CC1632C194491005618F8 /* IfElseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseView.swift; sourceTree = "<group>"; };
 		821CC1652C19E02C005618F8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		821CC1692C19F3CE005618F8 /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
+		821CC16B2C1A9E30005618F8 /* ContentTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTransition.swift; sourceTree = "<group>"; };
+		821CC16D2C1AA1D0005618F8 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		821ABB9E2C158A0A009C38B2 = {
 			isa = PBXGroup;
 			children = (
+				821CC1672C19F3A2005618F8 /* youtube */,
 				821CC1542C18A9C9005618F8 /* Transition */,
 				821CC13B2C188F9E005618F8 /* Spring */,
 				821ABBA92C158A0A009C38B2 /* SwiftDemo */,
@@ -205,9 +212,27 @@
 				821CC1552C18A9DE005618F8 /* DemoView.swift */,
 				821CC1592C18AB50005618F8 /* Slide.swift */,
 				821CC1612C194477005618F8 /* Dialog.swift */,
+				821CC16B2C1A9E30005618F8 /* ContentTransition.swift */,
 				821CC1632C194491005618F8 /* IfElseView.swift */,
+				821CC16D2C1AA1D0005618F8 /* Demo.swift */,
 			);
 			path = Transition;
+			sourceTree = "<group>";
+		};
+		821CC1672C19F3A2005618F8 /* youtube */ = {
+			isa = PBXGroup;
+			children = (
+				821CC1682C19F3B2005618F8 /* GroupBox */,
+			);
+			path = youtube;
+			sourceTree = "<group>";
+		};
+		821CC1682C19F3B2005618F8 /* GroupBox */ = {
+			isa = PBXGroup;
+			children = (
+				821CC1692C19F3CE005618F8 /* GroupBoxView.swift */,
+			);
+			path = GroupBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +322,7 @@
 				821ABBC52C16AA11009C38B2 /* StepperView.swift in Sources */,
 				821CC1562C18A9DE005618F8 /* DemoView.swift in Sources */,
 				821CC1342C1859E8005618F8 /* LoginView.swift in Sources */,
+				821CC16C2C1A9E30005618F8 /* ContentTransition.swift in Sources */,
 				821CC15A2C18AB50005618F8 /* Slide.swift in Sources */,
 				821CC1182C1734BB005618F8 /* TriggerView1.swift in Sources */,
 				821CC1262C17F455005618F8 /* DurationView.swift in Sources */,
@@ -311,6 +337,7 @@
 				821CC1302C185085005618F8 /* testDemo.swift in Sources */,
 				821CC12E2C184E6E005618F8 /* LockView.swift in Sources */,
 				821CC11A2C1736A5005618F8 /* DragGestureView.swift in Sources */,
+				821CC16E2C1AA1D0005618F8 /* Demo.swift in Sources */,
 				821CC1472C189653005618F8 /* DampingView.swift in Sources */,
 				821ABBC12C169440009C38B2 /* PickerView.swift in Sources */,
 				821CC11C2C1744D9005618F8 /* GestureRotationView.swift in Sources */,
@@ -318,6 +345,7 @@
 				821ABBAB2C158A0A009C38B2 /* SwiftDemoApp.swift in Sources */,
 				821CC14B2C189845005618F8 /* InitialVelocityView.swift in Sources */,
 				821CC1452C18954D005618F8 /* StiffnessView.swift in Sources */,
+				821CC16A2C19F3CE005618F8 /* GroupBoxView.swift in Sources */,
 				821CC1532C18A953005618F8 /* layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
